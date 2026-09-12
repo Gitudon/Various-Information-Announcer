@@ -1,5 +1,5 @@
 
-FROM golang:1.26.4-alpine3.24
+FROM golang:1.26.4-alpine
 WORKDIR /usr/src/bot
 COPY go.mod go.sum ./
 RUN go mod download
