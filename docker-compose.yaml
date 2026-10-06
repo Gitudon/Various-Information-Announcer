@@ -2,7 +2,7 @@ services:
   bot:
     build: .
     volumes:
-      - ./bot:/usr/src/bot:rw
+      - ./.env:/root/.env
     env_file:
       - .env
     environment:
